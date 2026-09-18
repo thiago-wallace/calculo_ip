@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='calculo_ip',
+    name='calculo ip',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
