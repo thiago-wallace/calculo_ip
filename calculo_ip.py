@@ -1,6 +1,6 @@
 import dicionario_filial_ip
 
-print('### Cálculo IP - atualização 2026.09.15')
+print('### Cálculo IP - atualização 2026.09.18')
 while True:
     entrada = input('\nDigite o número da filial (Ou "s" para sair): ').lower()
     # Validar se o usuário deseja sair
@@ -15,7 +15,7 @@ while True:
     if filial <= 0 or filial > 4000:
         print('Filial inválida')
         continue
-    # Validar se a filial está dentro do dicionário de IPs fora do padrão
+    # Validar se a filial está dentro do dicionário de IPs fora do padrão do cálculo
     if filial in dicionario_filial_ip.dicionario:
         endereco_ip = dicionario_filial_ip.dicionario[filial]
     # Validar se o número da filial está entre 0 e 2000
