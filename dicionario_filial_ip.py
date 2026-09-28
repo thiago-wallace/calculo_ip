@@ -1,4 +1,4 @@
-# Relação de Filiais e IPs fora do padrão do cálculo
+# Relação de Filiais e IPs fora do cálculo padrão
 dicionario = {
     1128: '10.222.120.100',
     1328: '10.222.124.100',
