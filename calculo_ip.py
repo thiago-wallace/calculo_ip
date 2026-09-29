@@ -1,6 +1,6 @@
 import dicionario_filial_ip
 
-print('### Cálculo IP - atualização 2026.09.18')
+print('### Cálculo IP - atualização 2026.09.28 - Desenvolvido por Thiago Wallace')
 while True:
     entrada = input('\nDigite o número da filial (Ou "s" para sair): ').lower()
     # Validar se o usuário deseja sair
